@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-
+//Evaluates the function at a certain point x
 double eval(int degree, double *coo, double x)
 {
     double result=0;
@@ -14,6 +14,7 @@ double eval(int degree, double *coo, double x)
     return result;
 }
 
+//Finds the root inside the interval betweem left and right
 double root(int degree, double *coo, double left, double right)
 {
     double lval,rval,mval,mid;
